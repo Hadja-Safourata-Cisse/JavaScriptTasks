@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<Wrs>
+  <Header>
+    <BindingSet>auto_test_cube_oracle</BindingSet>
+    <Columns>
+      <C pos="1" dimId="orig_country" nullable="0" caption="Origin Country" display-size="255" id="orig_country" bRef="orig_country" type-name="VARCHAR"/>    
+      <C pos="2" dimId="orig_area" nullable="1" caption="Origin Area" display-size="255" id="orig_area" bRef="orig_area" type-name="VARCHAR"/>
+      <C pos="3" dimId="product_code" nullable="1" caption="Product code" display-size="255" id="product_code" bRef="product_code" type-name="VARCHAR"/>
+      <C pos="4" valueId="i_k01" nullable="1" caption="i_k01" scale="0" signed="true" display-size="39" id="i_k01" aggr="" bRef="i_k01" type-name="INTEGER"/>
+      <C pos="5" valueId="i_k02" nullable="1" caption="Rev. Win" scale="0" signed="true" display-size="39" id="i_k02" aggr="" bRef="i_k02" type-name="INTEGER"/>
+      <C pos="6" valueId="t_k01" nullable="1" caption="t_k01" scale="0" signed="true" display-size="39" id="t_k01" aggr="" bRef="t_k01" type-name="INTEGER"/>
+    </Columns>
+  </Header>
+  <Data>
+    <R id="R1">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>1256</C>
+      <C>1271</C>
+      <C>1334</C>
+    </R>
+    <R id="R2">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AWD</C>
+      <C>656</C>
+      <C>667</C>
+      <C>697</C>
+    </R>
+    <R id="R3">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AMS</C>
+      <C>600</C>
+      <C>604</C>
+      <C>637</C>
+    </R>
+    <R id="R4">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>322</C>
+      <C>323</C>
+      <C>338</C>
+    </R>
+    <R id="R5">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="0">AWD</C>
+      <C>163</C>
+      <C>168</C>
+      <C>172</C>
+    </R>
+    <R id="R6">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="0">AMS</C>
+      <C>159</C>
+      <C>155</C>
+      <C>166</C>
+    </R>
+    <R id="R7">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>299</C>
+      <C>295</C>
+      <C>322</C>
+    </R>
+    <R id="R8">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="0">AWD</C>
+      <C>151</C>
+      <C>144</C>
+      <C>163</C>
+    </R>
+    <R id="R9">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="0">AMS</C>
+      <C>148</C>
+      <C>151</C>
+      <C>159</C>
+    </R>
+    <R id="R10">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>308</C>
+      <C>317</C>
+      <C>328</C>
+    </R>
+    <R id="R11">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="0">AWD</C>
+      <C>170</C>
+      <C>173</C>
+      <C>182</C>
+    </R>
+    <R id="R12">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="0">AMS</C>
+      <C>138</C>
+      <C>144</C>
+      <C>146</C>
+    </R>
+    <R id="R13">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">East</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>327</C>
+      <C>336</C>
+      <C>346</C>
+    </R>
+    <R id="R14">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">East</C>
+      <C bcdGr="0">AWD</C>
+      <C>172</C>
+      <C>182</C>
+      <C>180</C>
+    </R>
+    <R id="R15">
+      <C bcdGr="0">DE</C>
+      <C bcdGr="0">East</C>
+      <C bcdGr="0">AMS</C>
+      <C>155</C>
+      <C>154</C>
+      <C>166</C>
+    </R>
+    <R id="R16">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>1041</C>
+      <C>1030</C>
+      <C>1096</C>
+    </R>
+    <R id="R17">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AWD</C>
+      <C>509</C>
+      <C>499</C>
+      <C>534</C>
+    </R>
+    <R id="R18">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AMS</C>
+      <C>532</C>
+      <C>531</C>
+      <C>562</C>
+    </R>
+    <R id="R19">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>296</C>
+      <C>304</C>
+      <C>320</C>
+    </R>
+    <R id="R20">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="0">AWD</C>
+      <C>147</C>
+      <C>146</C>
+      <C>156</C>
+    </R>
+    <R id="R21">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">West</C>
+      <C bcdGr="0">AMS</C>
+      <C>149</C>
+      <C>158</C>
+      <C>164</C>
+    </R>
+    <R id="R22">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>292</C>
+      <C>285</C>
+      <C>303</C>
+    </R>
+    <R id="R23">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="0">AWD</C>
+      <C>138</C>
+      <C>128</C>
+      <C>142</C>
+    </R>
+    <R id="R24">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">South</C>
+      <C bcdGr="0">AMS</C>
+      <C>154</C>
+      <C>157</C>
+      <C>161</C>
+    </R>
+    <R id="R25">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>299</C>
+      <C>294</C>
+      <C>312</C>
+    </R>
+    <R id="R26">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="0">AWD</C>
+      <C>153</C>
+      <C>156</C>
+      <C>160</C>
+    </R>
+    <R id="R27">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">North</C>
+      <C bcdGr="0">AMS</C>
+      <C>146</C>
+      <C>138</C>
+      <C>152</C>
+    </R>
+    <R id="R28">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">Center</C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>154</C>
+      <C>147</C>
+      <C>161</C>
+    </R>
+    <R id="R29">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">Center</C>
+      <C bcdGr="0">AWD</C>
+      <C>71</C>
+      <C>69</C>
+      <C>76</C>
+    </R>
+    <R id="R30">
+      <C bcdGr="0">ES</C>
+      <C bcdGr="0">Center</C>
+      <C bcdGr="0">AMS</C>
+      <C>83</C>
+      <C>78</C>
+      <C>85</C>
+    </R>
+    <R id="R31">
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C>2297</C>
+      <C>2301</C>
+      <C>2430</C>
+    </R>
+    <R id="R32">
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AWD</C>
+      <C>1165</C>
+      <C>1166</C>
+      <C>1231</C>
+    </R>
+    <R id="R33">
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="1">
+        <null/>
+      </C>
+      <C bcdGr="0">AMS</C>
+      <C>1132</C>
+      <C>1135</C>
+      <C>1199</C>
+    </R>
+  </Data>
+</Wrs>
